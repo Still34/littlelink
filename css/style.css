@@ -465,17 +465,20 @@ ul li {
 	}
 }
 body {
-	/* background: radial-gradient(
-		ellipse at bottom,
-		var(--bgColor) 0%,
-		var(--bgColor2) 100%
-	); */
 	opacity: 0;
+  /* background: radial-gradient(
+    ellipse at bottom,
+    var(--bgColor) 0%,
+    var(--bgColor2) 100%
+  ); */
+  background-image: url("../images/background.jxl");
 	animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
 	animation-fill-mode: forwards;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+  height: 100vh;
+  background-blend-mode: overlay;
 }
 :root {
 	--bgColor: rgb(20, 13, 17);
