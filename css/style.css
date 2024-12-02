@@ -160,7 +160,7 @@ footer {
 }
 
 /* Responsive adjustments */
-@media (max-width: 34.375rem) {
+@media (max-width: 60rem) {
   /* 550px */
   h1 {
     font-size: var(--scale-4);
@@ -471,7 +471,7 @@ body {
     var(--bgColor) 0%,
     var(--bgColor2) 100%
   ); */
-  background-image: url("../images/background.jxl");
+  background-image: url("../images/background.avif");
 	animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
 	animation-fill-mode: forwards;
 	background-repeat: no-repeat;
